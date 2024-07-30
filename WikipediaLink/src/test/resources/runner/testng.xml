@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wiki prefix link test">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testName" value="ScrapLinkTest"/>
+    <listeners>
+        <listener class-name="listeners.TestListener" />
+    </listeners>
+    <test name="Sign in Test">
+        <classes>
+            <class name="testcases.ScrapLinkTest" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
